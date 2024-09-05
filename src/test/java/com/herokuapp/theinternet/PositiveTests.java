@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class PositiveTests {
 
     @Test
-    public void loginTest() {
+    public void landingPageLoadTest() {
         System.out.println("Running openPage test");
         WebDriver driver = new ChromeDriver();  //TODO:Set this in runtime from the Google Analytics
         String url = "https://schwab.com";  //TODO: Set this in runtime from Jenkins or the CLI
